@@ -1,5 +1,5 @@
-#Programs
-###A quick way of backing up a list of programs is to run this:
+# Programs
+### A quick way of backing up a list of programs is to run this:
 
 ```shell
 dpkg --get-selections > ~/Package.list
@@ -8,7 +8,7 @@ sudo apt-key exportall > ~/Repo.keys
 ```
 
 
-###It will back them up in a format that dpkg can read* for after your reinstall, like this:
+### It will back them up in a format that dpkg can read* for after your reinstall, like this:
 ```shell
 sudo apt-key add ~/Repo.keys
 sudo cp -R ~/sources.list* /etc/apt/
